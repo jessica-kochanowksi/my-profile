@@ -1,0 +1,113 @@
+body {
+  background-color: #FFEED9;
+   color: black;
+   font-size: 17px;
+   font-family: 'Hind Siliguri', sans-serif;
+   }
+
+h1, h2  {font-family: Verdana;
+  }
+
+h1 {
+  color:#39A7FF;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+h2 {
+  color:#39A7FF;
+  font-size: 24px;
+  font-weight: bolder;
+    font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: #87C4FF;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-weight: bold
+}
+
+a:hover {
+  color: #E0F4FF;
+}
+
+.main_container {
+  width: 700x;
+  margin: 40px auto;
+  padding: 25px 30px;
+  border-radius: 15px;
+}
+
+.button-poland {
+  background-color: #FFEED9;
+  color: #87C4FF;
+  padding: 15px 30px;
+  border-radius: 15px;
+  font-weight: bold
+}
+
+.button-poland:hover {
+  background-color: #E0F4FF ;
+  color: #39A7FF;
+}
+
+.card-white{
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0.0,0.0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 25px;
+  text-align: center;
+}
+
+.card-white:hover{
+  background-color:#FFFBF5;
+}
+
+.img-circle{
+  border-radius: 50%;
+  }
+
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li{
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 40px;
+  }
+
+  #introduction p {
+    margin-bottom: 40px;
+    }
+
+  #text p {
+    margin-bottom: 40px;
+    }
+
+@media (max-width: 760px) {
+  .main_container {
+    width: 600px;
+  }
+
+@media (max-width: 500px) {
+  .main_container {
+    width: 400px;
+  }
+}
+
+#introduction p{
+  margin-bottom: 40px;
+}
+
+.list-inline{
+  font-size: 62px;
+}
